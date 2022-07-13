@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  seller-shop.main:
+    container_name: seller-shop
+    image: ${DOCKER_REGISTRY-}sellershopmain
+    build:
+      context: .
+      dockerfile: seller-shop.Main/Dockerfile
+    env_file:
+     - env/psql-connect.env
+    ports:
+     - 8080:8080

@@ -7,7 +7,7 @@ ProjectConfigurations projectConfigurations = new(builder.Configuration);
 
 builder.Services.AddRazorPages();
 builder.Services.AddControllersWithViews();
-builder.Services.AddClientPostgress(projectConfigurations);
+builder.Services.AddClientPostgreSql(projectConfigurations);
 
 var app = builder.Build();
 

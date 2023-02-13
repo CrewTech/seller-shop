@@ -17,8 +17,7 @@ public class Order
     public decimal ShippingMethodPrice { get; set; }
 
     public User ApplicationUser { get; set; } = null!;
-    public ShippingMethod ShippingMethod { get; set; } = null!;
+
     public ICollection<OrderDetail> Details { get; set; } = null!;
     public ICollection<Invoice> Invoices { get; set; } = null!;
-
 }

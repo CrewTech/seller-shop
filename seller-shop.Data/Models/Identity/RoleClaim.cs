@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace seller_shop.Data.Models;
+namespace seller_shop.Data.Models.Identity;
 
 public class RoleClaim : IdentityRoleClaim<Guid>
 {

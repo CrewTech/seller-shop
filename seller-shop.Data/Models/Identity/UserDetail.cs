@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace seller_shop.Data.Models;
+namespace seller_shop.Data.Models.Identity;
 
 public class UserDetail
 {

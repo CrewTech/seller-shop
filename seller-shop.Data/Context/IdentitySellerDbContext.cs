@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using seller_shop.Data.Models;
+using seller_shop.Data.Models.Identity;
 
 namespace seller_shop.Data.Context;
 

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using seller_shop.Data.Models.Identity;
 
 namespace seller_shop.Data.Models;
 
